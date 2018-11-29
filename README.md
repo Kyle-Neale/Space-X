@@ -1,25 +1,26 @@
-# Apollo tutorial
+# SpaceX App
 
-This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
+SpaceX is an app using their API, along with help from the Apollo GraphQL team, that allows users to book launches!
 
-## File structure
+## Application Features
 
-The app is split out into two folders:
-- `start`: Starting point for the tutorial
-- `final`: Final version
+- Users can login using an email address in the correct format.
+- Users can view a list of all rockets and add/remove them from their cart.
+- Users view their saved launched and decide to cancel a booked launch.
+- Users can logout.
 
-From within the `start` and `final` directories, there are two folders (one for `server` and one for `client`).
+## Built With
+- Apollo GraphQL
+- SQLite3 Database
+- React.js
+- Node.js
 
 ## Installation
 
 To run the app, run these commands in two separate terminal windows from the root:
 
-```bash
-cd final/server && npm i && npm start
-```
+- Run npm install in both the client and server side folders
+- Run npm start in both the client and server side folders
 
-and
-
-```bash
-cd final/client && npm i && npm start
-```
+## Authors
+Kyle Neale
